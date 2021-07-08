@@ -37,7 +37,7 @@ public class PlayerConditions : MonoBehaviour
 
         if (Main.player.endurance <= 0)
         {
-            Texts.DisplayMainText("У тебя кончились силы и ты внезапно умер. Конец игры", "Совсем печалька");
+            Texts.DisplayMainText("У тебя кончились силы и ты внезапно умер. Ты проиграл.", "Совсем печалька");
             Main.endGame = 1;
         }
  
